@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#reloadBtn {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reloadBtn:hover {
+  background: #0056b3;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.user-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: left;
+}
